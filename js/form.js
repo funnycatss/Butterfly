@@ -13,7 +13,7 @@ function sendForm(e) {
     method: "POST",
     data: {
     name:('#name').val(),
-    e-mail:('#email').val(),
+    email:('#email').val(),
     comment:('#comment').val()
           },
         dataType: "json"
