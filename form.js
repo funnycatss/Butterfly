@@ -12,7 +12,9 @@ function sendForm(e) {
     url: "https://formspree.io/134oriflame@gmail.com", 
     method: "POST",
     data: {
-    
+    name:('#name').val(),
+    e-mail:('#email').val(),
+    comment:('#comment').val()
           },
         dataType: "json"
     })
