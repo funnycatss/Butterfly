@@ -1,56 +1,40 @@
-body-style {
-    max-width: 800px;
+body{
+    max-width: 1200px;
     margin: auto;
-    display: flex;
-    background: background.jpg;
-    background-position: center;
-    font-family: 'Bitter', serif;
-    color: black;
-    font-size: 18px;
+    background-image: url("../image/background.jpg") ;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
 }
-.select {
-    height: 20px;
-    color: inherit;
-}
-
- .div img {
+div .img {
     width: 25%;
-    width: 400px;
     height: 300px;
     position:relative;
 }
-.div map {
+div .map {
     border:2px solid #101011;
 }
-.div contacts{
-    width: 40px;
-    height: 70px;
-    background-position: right;
+div .contacts {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+   justify-content:space-around;
+    width: 100%;
+    padding: 10px;
 }
-.align center {
+.center {
     font-family: bold;
     font-weight: : 25px;
 }
-
- .h1 {
-     font-family: 'Pacifico', cursive;
-     font-weight: 25px;
- }
-
-
-
-
-
-
-
-
+p {
+    text-align: center; 
+}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
+/*
 html {
   height:100%;
-  background-image: 0;
 }
-
+*/
 nav {
   max-width: 960px;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
@@ -83,13 +67,6 @@ nav ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
 }
-
-
-
-
-
-
-
 .form-style-6{
     font: 95% Arial, Helvetica, sans-serif;
     max-width: 400px;
